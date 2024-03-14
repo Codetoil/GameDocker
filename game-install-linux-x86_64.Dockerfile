@@ -17,6 +17,6 @@ RUN mv ~/.local/share/godot/export_templates/templates ~/.local/share/godot/expo
 RUN mkdir -p Godot/bin/debug/Linux/x86_64
 RUN mkdir -p Godot/bin/release/Linux/x86_64
 RUN mkdir -p Godot/addons/game_swift/debug/Linux/x86_64
-RUN ./copy-swift-binaries-linux-x86_64
+RUN ./copy-swift-binaries-linux-x86_64.sh
 
-CMD ["/bin/sh", "install-linux-x86_64"]
+CMD ["/bin/sh", "install-linux-x86_64.sh"]
