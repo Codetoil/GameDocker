@@ -16,6 +16,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - run: cd Docker
     - name: Build the Docker image
       run: docker build . --file ./game-install-linux-x86_64.Dockerfile --tag game-install-linux-x86_64:$(date +%s)
