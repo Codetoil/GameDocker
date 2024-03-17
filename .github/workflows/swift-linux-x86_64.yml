@@ -33,4 +33,4 @@ jobs:
         context: .
         file: ./game-install-linux-x86_64.Dockerfile
         push: true
-        tags: codetoil/game-devenv-linux-x86_64:latest, codetoil/game-devenv-linux-x86_64:0.1, codetoil/game-devenv-linux-x86_64:0.1.0
+        tags: ghcr.io/codetoil/game-devenv-linux-x86_64:latest, ghcr.io/codetoil/game-devenv-linux-x86_64:0.1, ghcr.io/codetoil/game-devenv-linux-x86_64:0.1.0
